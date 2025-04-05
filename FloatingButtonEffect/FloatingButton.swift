@@ -11,7 +11,7 @@ struct FloatingButton: View {
     @State private var floating = false
     @State private var rotation: Double = 0
     
-    let texts = ["NEXT", "STOP"] 
+    let texts = ["NEXT", "STOP"]
     
     var body: some View {
         ZStack {
@@ -35,6 +35,7 @@ struct FloatingButton: View {
             Button(action: {}) {
                 Image(systemName: "plus")
                     .font(.largeTitle)
+                    .foregroundStyle(.yellow)
                     .padding()
                     .background(Circle().fill(Color.blue))
                     .shadow(radius: floating ? 30 : 5)
