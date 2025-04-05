@@ -2,6 +2,8 @@
 
 Welcome to one of my playful SwiftUI UI experiments: a floating action button with orbiting text and smooth animation — perfect for travel apps or creative app intros! 🌍🚀
 
+![image alt](https://github.com/Alemcode0/FloatingButtonEffect/blob/main/Floating-Button.png)
+
 ## 🔧 Built With
 - SwiftUI
 - Trigonometric animation using cos / sin
